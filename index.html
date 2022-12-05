@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Countdown</h1>
+      <table>
+        <tr>
+          <td id="days">
+            00
+            <p>days</p>
+          </td>
+          <td>:</td>
+          <td id="hours">
+            00
+            <p>hrs</p>
+          </td>
+          <td>:</td>
+          <td id="minutes">
+            00
+            <p>mins</p>
+          </td>
+          <td>:</td>
+          <td id="seconds">
+            00
+            <p>secs</p>
+          </td>
+        </tr>
+      </table>
+      <input
+        type="text"
+        maxlength="7"
+        placeholder="Enter number in seconds..."
+      />
+      <button id="btn" onclick="start()">Start</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
